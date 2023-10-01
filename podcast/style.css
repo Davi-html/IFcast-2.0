@@ -55,10 +55,24 @@ header .col {
     outline: none;
 }
 
+.card img {
+    width: 250px;
+}
+
+.card {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+div.col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 767px){
     .menu {
         display: none;
-    }
+    } 
 }
 
 @media (max-width: 767px){
@@ -69,12 +83,22 @@ header .col {
 
 }
 
+
 @media (max-width: 337px){
 
     
     h3#pod {
         font-size: 20px;
         text-align: center;
+    }
+
+}
+
+@media (max-width: 575px){
+
+    .col-sm-6 {
+        display: flex;
+        justify-content: center;
     }
 
 }
