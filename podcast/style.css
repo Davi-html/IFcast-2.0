@@ -34,18 +34,47 @@ header .col {
     font-weight: bold;
 }
 
+#pod {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-position {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#search {
+    border: none;
+    border-bottom: #1b1c20 solid 1px;
+}
+
+#search:focus {
+    outline: none;
+}
 
 @media (min-width: 767px){
     .menu {
         display: none;
     }
-
 }
 
 @media (max-width: 767px){
 
     #a-header {
         display: none;
+    }
+
+}
+
+@media (max-width: 337px){
+
+    
+    h3#pod {
+        font-size: 20px;
+        text-align: center;
     }
 
 }
