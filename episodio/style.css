@@ -1,0 +1,50 @@
+* {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.color{
+    background-color: #1b1c20;
+    color: white;
+}
+
+i {
+    color: white;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+header .col {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#a-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#a-header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width: 767px){
+    .menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    #a-header {
+        display: none;
+    }
+
+}
