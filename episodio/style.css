@@ -19,13 +19,27 @@ header .col {
     justify-content: space-between;
 }
 
+main {
+    color: white;
+    background-color: #1b1c20;
+    height: 45vh;
+}
 
+#h2-title {
+    font-size: 32px;
+}
 
 #a-header {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #a-header a {
