@@ -33,7 +33,23 @@ header .col {
     color: white;
     font-weight: bold;
 }
+#first-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
 
+
+#first-div h2 {
+    font-size: 42px;
+}
+
+#first-div p {
+    text-align: center;
+    width: 553px;
+    font-size: 21px;
+}
 
 .container {
     margin-top: 10px;
