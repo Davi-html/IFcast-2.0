@@ -51,6 +51,21 @@ header .col {
     font-size: 21px;
 }
 
+.img-col img{
+    height: 157px;
+    width: 171px;
+}
+
+.sec-principal {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     margin-top: 10px;
 }
@@ -60,12 +75,29 @@ header .col {
         display: none;
     }
 
+    .sec-principal div.col {
+        width: 25%;
+    }
+
 }
 
 @media (max-width: 767px){
 
     #a-header {
         display: none;
+    }
+
+    #first-div p {
+        width: auto;
+    }
+
+    .img-col {
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 27px;
     }
 
 }
