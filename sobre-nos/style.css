@@ -54,6 +54,7 @@ header .col {
 .img-col img{
     height: 157px;
     width: 171px;
+    border-radius: 100%;
 }
 
 .sec-principal {
